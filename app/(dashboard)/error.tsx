@@ -15,7 +15,7 @@ export default function GlobalError({
   }, [error])
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-indigo-900 via-gray-900 to-black p-6">
+    <div className="min-h-screen flex items-center justify-center bg-linear-to-br from-indigo-900 via-gray-900 to-black p-6">
       <div className="max-w-md w-full bg-white/10 backdrop-blur-xl rounded-2xl shadow-2xl border border-white/20 p-8 text-center text-white">
         
         {/* Icon */}
