@@ -140,7 +140,7 @@
   }
 
   #explore-btn {
-    @apply border-dark-200 bg-dark-100 flex w-fit cursor-pointer  rounded-full border px-8 py-3.5 max-sm:w-full text-center ;
+    @apply border-dark-200 bg-dark-100 flex w-fit cursor-pointer rounded-full border px-8 py-3.5 max-sm:w-full text-center;
 
     a {
       @apply flex-center gap-2 text-center w-full;
@@ -175,8 +175,9 @@
     @apply flex flex-col gap-3;
 
     .poster {
-      @apply h-[300px] w-full rounded-lg object-cover;
+      @apply w-full h-auto rounded-lg object-cover;
     }
+
 
     .title {
       @apply text-[20px] font-semibold line-clamp-1;
@@ -193,8 +194,12 @@
         @apply flex flex-row gap-2;
       }
     }
-  }
 
+  }
+  .icon {
+    @apply h-3.5 w-auto;
+  }
+  
   #event {
     .header {
       @apply flex w-2/3 flex-col items-start gap-4 max-lg:w-full mb-10;

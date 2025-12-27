@@ -9,7 +9,7 @@ const ExploreBtn = () => {
       >
          <a href="#event">
             Explore Event
-            <Image src="/icons/arrow-down.svg" alt='arrow-down' width={24} height={24} />
+            <Image src="/icons/arrow-down.svg" alt='arrow-down' width={24} height={24} className="icon"/>
          </a>
       </button>
    )
